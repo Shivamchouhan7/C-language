@@ -19,8 +19,11 @@ int main() {
         if(guessed>randomnumber){
             printf("lower number please!\n");
         }
-        else{
+        else if(guessed<randomnumber){
             printf("higher number please!\n");
+        }
+        else{
+            printf("congratulations you guessed!!\n");
         }
         no_of_guesses++;
     }while(guessed!=randomnumber);

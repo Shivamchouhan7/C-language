@@ -3,15 +3,14 @@
 #include <time.h>
 
 int main() {
+    // random number guessing  game 
     // Seed the random number generator
     srand(time(0));
 
-    // Generate a random number between min and max
+    // Generate a random number between 1 to 100
     int randomnumber = (rand() % 100) + 1;
     int no_of_guesses = 0;
     int guessed;
-
-    // printf("Random number %d \n", randomnumber);
     printf("guess the number ");
     do{
         printf("guess the number :");

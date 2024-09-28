@@ -2,7 +2,7 @@
 void modify_array(int* a,int size);
 
 int main(){
-    int array[]={55,66,85,75,45};
+    int array[]={55,65,75,85,95};
     // Print original array
     for (int i = 0; i < 5; i++)
     {

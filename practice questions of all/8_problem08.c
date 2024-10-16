@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-/* a program to count the occurrence of a given character in a string*/
+/* program to check whether a given character is present in a string or not*/
 int main(){
     char string[]="hello brother how are you ?";
     char c;

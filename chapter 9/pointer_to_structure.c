@@ -14,7 +14,7 @@ int main() {
 
     // Accessing the amount using pointer dereferencing
     printf("The amount is %d \n", (*ptr).amount); // Using dereferencing
-    printf("The amount is %d \n", ptr->amount);   // Using the arrow operator
+    printf("The amount is %d \n", ptr->amount);   // Using the arrow operator,exactly works same as (*ptr).amount
 
     return 0;
 }

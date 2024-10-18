@@ -19,7 +19,7 @@ int main() {
     e1.id = 231124;     // Set the employee's ID
     e1.salary = 500000; // Set the employee's salary
 
-    //prints details of
+    //prints details of employee
     printf("Name: %s\n", e1.name);   //employee's name
     printf("ID: %d\n", e1.id);       //employee's ID
     printf("Salary: %d\n", e1.salary); //employee's salary
